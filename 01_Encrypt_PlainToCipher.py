@@ -31,3 +31,4 @@ def encrypt(plaintext, shift):
       encrypted += c
 
   return encrypted
+
