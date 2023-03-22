@@ -1,5 +1,5 @@
 def decrypt(ciphertext, shift):
-  decrypted = ""
+  decrypted = "" 
 
   for c in ciphertext:
     if c.isupper():
