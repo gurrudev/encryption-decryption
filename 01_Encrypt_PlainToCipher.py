@@ -5,7 +5,7 @@ def encrypt(plaintext, shift):
     if c.isupper():
       #subtracting the unicode of 'A' 65 to get the index in [0-25] range
       c_index = ord(c) - ord('A')
-
+  
       #shift the charecter
       c_shift = (c_index + shift) % 26 + ord('A')
 
