@@ -4,7 +4,7 @@ def decrypt(ciphertext, shift):
   for c in ciphertext:
     if c.isupper():
       c_index = ord(c) - ord('A')
-
+ 
       #shifting to the left
       c_original = (c_index - shift) % 26 + ord('A')
 
