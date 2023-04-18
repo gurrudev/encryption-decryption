@@ -34,5 +34,5 @@ text = 'EXXEGO 8 $ SRI'
 s = 4
 
 print('Ciphertext: '+text)
-print('Shift: '+str(s))
+print('Shift: '+str(s)) 
 print('Decrypted Text: '+decrypt(text, s))
